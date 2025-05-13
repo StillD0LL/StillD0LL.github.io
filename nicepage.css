@@ -46355,7 +46355,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 41px;
   height: 41px;
-  margin: 10px auto 0 calc(((100% - 1280px) / 2)  + -343px);
+  margin: 12px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46364,7 +46364,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -38px calc(((100% - 1280px) / 2)  + -322px) 0 auto;
+  margin: -39px calc(((100% - 1280px) / 2)  + -322px) 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -46386,13 +46386,9 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -15px auto 8px calc(((100% - 1280px) / 2)  + -335px);
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    margin-left: calc(((100% - 940px) / 2) + -343px);
-  }
-
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -38px;
+    margin-top: -39px;
     margin-right: calc(((100% - 940px) / 2) + -322px);
   }
 
@@ -46407,10 +46403,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-image-1 {
-    margin-left: calc(((100% - 720px) / 2) + -343px);
-  }
-
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 720px) / 2) + -322px);
   }
@@ -46425,36 +46417,37 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-header .u-image-1 {
-    margin-left: -101px;
+    margin-left: calc(((100% - 540px) / 2)  + 219px);
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 540px) / 2)  + -89px);
+    margin-right: auto;
+    margin-left: calc(((100% - 540px) / 2)  + 54px);
   }
 
   .u-header .u-text-1 {
-    margin-left: calc(((100% - 540px) / 2)  + -47px);
+    margin-left: calc(((100% - 540px) / 2)  + 323px);
   }
 
   .u-header .u-text-2 {
-    margin-left: calc(((100% - 540px) / 2)  + -35px);
+    margin-left: calc(((100% - 540px) / 2)  + 335px);
   }
 }
 @media (max-width: 575px) {
   .u-header .u-image-1 {
-    margin-left: calc(((100% - 340px) / 2)  + -1px);
+    margin-left: 469px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 340px) / 2)  + 11px);
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-text-1 {
-    margin-left: calc(((100% - 340px) / 2)  + 53px);
+    margin-left: 523px;
   }
 
   .u-header .u-text-2 {
-    margin-left: calc(((100% - 340px) / 2)  + 65px);
+    margin-left: 535px;
   }
 }
  .u-footer {
