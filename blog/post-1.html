@@ -6,11 +6,11 @@
     <meta name="description" content="">
     <title>Post 2 Headline</title>
     <link rel="stylesheet" href="../nicepage.css" media="screen">
-<link rel="stylesheet" href="../Post-Template.css" media="screen">
+<link rel="stylesheet" href="/Post-Template.css" media="screen">
     <script class="u-script" type="text/javascript" src="../jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="../nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 7.8.19, nicepage.com">
-    <link rel="icon" href="../images/favicon.png">
+    <link rel="icon" href="/images/favicon.png">
     
     
     
@@ -20,16 +20,51 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Site1",
-		"logo": "images/Untitled.png"
+		"logo": "/images/Untitled.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-grey-90 u-header u-sticky u-sticky-932a u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-header" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><style class="u-sticky-style" data-style-id="932a">.u-sticky-fixed.u-sticky-932a:before, .u-body.u-sticky-fixed .u-sticky-932a:before {
+  <style>
+@view-transition {
+  navigation: auto;
+}
+	
+/* Create a custom animation */
+@keyframes move-out {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes move-in {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+/* Apply the custom animation to the old and new page states */
+::view-transition-old(root) {
+  animation: 0.4s ease-in both move-out;
+}
+
+::view-transition-new(root) {
+  animation: 0.4s ease-in both move-in;
+}
+
+</style><meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="/" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-grey-90 u-header u-sticky u-sticky-932a u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-header" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><style class="u-sticky-style" data-style-id="932a">.u-sticky-fixed.u-sticky-932a:before, .u-body.u-sticky-fixed .u-sticky-932a:before {
 borders: top right bottom left !important
-}</style><a href="../" data-page-id="25457421" class="u-image u-logo u-opacity u-opacity-80 u-image-1" data-image-width="96" data-image-height="96" title="Updates">
-        <img src="../images/Untitled.png" class="u-logo-image u-logo-image-1" alt="" title="Home">
-      </a><nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" role="navigation">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase; font-weight: 500;">
+}</style><a href="/" data-page-id="25457421" class="u-image u-logo u-opacity u-opacity-80 u-image-1" data-image-width="96" data-image-height="96" title="Updates">
+        <img src="/images/Untitled.png" class="u-logo-image u-logo-image-1" alt="" title="Home">
+      </a><nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
           <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="a96f">
             <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
             <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
@@ -37,16 +72,16 @@ borders: top right bottom left !important
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul role="menubar" class="u-nav u-spacing-2 u-unstyled u-nav-1"><li role="none" class="u-nav-item"><a role="menuitem" class="u-active-custom-color-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="../" style="padding: 10px 20px;">Updates</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-active-custom-color-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="../Characters.html" style="padding: 10px 20px;">Characters</a>
+          <ul role="menubar" class="u-nav u-spacing-30 u-unstyled u-nav-1"><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-6 u-text-body-alt-color u-text-hover-white" href="/" style="padding: 10px 0px;">Updates</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-6 u-text-body-alt-color u-text-hover-white" href="/Characters.html" style="padding: 10px 0px;">Characters</a>
 </li></ul>
         </div>
         <div class="u-custom-menu u-nav-container-collapse" id="a96f" role="region" aria-label="Menu panel">
           <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
             <div class="u-inner-container-layout u-sidenav-overflow">
               <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="../">Updates</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="../Characters.html">Characters</a>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="/">Updates</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="/Characters.html">Characters</a>
 </li></ul>
             </div>
           </div>
@@ -57,9 +92,9 @@ borders: top right bottom left !important
       <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":""}--><!--/post_details_options_json--><!--blog_post-->
         <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
           <div class="u-container-layout u-valign-middle u-container-layout-1"><!--blog_post_image-->
-            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../images/68f64b9d.jpeg"><!--/blog_post_image--><!--blog_post_header-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="/images/68f64b9d.jpeg"><!--/blog_post_image--><!--blog_post_header-->
             <h2 class="u-blog-control u-text u-text-1">Post 2 Headline</h2><!--/blog_post_header--><!--blog_post_metadata-->
-            <div class="u-blog-control u-metadata u-metadata-1"><!--blog_post_metadata_date--><span class="u-meta-date u-meta-icon">May 10, 2025</span><!--/blog_post_metadata_date--><!--blog_post_metadata_category--><span class="u-meta-category u-meta-icon"><a href="../blog/blog.html#/blog-1///1">Food</a></span><!--/blog_post_metadata_category--><!--blog_post_metadata_comments--><span class="u-meta-comments u-meta-icon"><!--blog_post_metadata_comments_content-->Comments (0)<!--/blog_post_metadata_comments_content--></span><!--/blog_post_metadata_comments-->
+            <div class="u-blog-control u-metadata u-metadata-1"><!--blog_post_metadata_date--><span class="u-meta-date u-meta-icon">May 10, 2025</span><!--/blog_post_metadata_date--><!--blog_post_metadata_category--><span class="u-meta-category u-meta-icon"><a href="/blog/blog.html#/blog-1///1">Food</a></span><!--/blog_post_metadata_category--><!--blog_post_metadata_comments--><span class="u-meta-comments u-meta-icon"><!--blog_post_metadata_comments_content-->Comments (0)<!--/blog_post_metadata_comments_content--></span><!--/blog_post_metadata_comments-->
             </div><!--/blog_post_metadata--><!--blog_post_content-->
             <div class="u-align-justify u-blog-control u-post-content u-text u-text-2 fr-view">
   <p>Sample small text. Lorem ipsum dolor sit amet.</p>
